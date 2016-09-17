@@ -18,12 +18,11 @@ public class LoginActivity extends AppCompatActivity {
     EditText unameText, pwText;
     private final int MAX_LOGIN_ATTEMPTS = 5;
     DBHandler dbHandler = new DBHandler(this, null, null, 1);
-//fsfsdffdfsf
+//sfsdfssfs
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_activity);
-
         loginButton = (Button) findViewById(R.id.login_button);
         cancelButton = (Button) findViewById(R.id.cancel_button);
         unameText = (EditText) findViewById(R.id.enter_username);
