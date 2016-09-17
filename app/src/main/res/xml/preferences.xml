@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="fitness_level"
+        android:title="Fitness Level"
+        android:defaultValue="@string/sedentary"
+        android:entryValues="@array/fitness_level_entries_values"
+        android:entries="@array/fitness_level_entries">
+    </ListPreference>
+    <ListPreference
+        android:title="Sex"
+        android:key="sex"
+        android:defaultValue="true"
+        android:entryValues="@array/sex_entries_values"
+        android:entries="@array/sex_entries">
+        <!-- male is true, female is false -->
+    </ListPreference>
+    <EditTextPreference
+        android:title="Height"
+        android:key="height"
+        android:inputType="number">
+    </EditTextPreference>
+    <EditTextPreference
+        android:title="Weight"
+        android:key="weight"
+        android:inputType="number">
+    </EditTextPreference>
+</PreferenceScreen>

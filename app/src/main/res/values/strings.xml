@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FitnessTrackerApp</string>
+    <string-array name="weight_units">
+        <item>lbs</item>
+        <item>kg</item>
+    </string-array>
+    <string-array name="height_units">
+        <item>inches</item>
+        <item>cm</item>
+    </string-array>
+    <string name="add_food"/>
+    <string name="info"/>
+    <string name="action_settings"/>
+    <string name="logout"/>
+    <string name="sedentary"/>
+</resources>
+

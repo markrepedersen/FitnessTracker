@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fitness_level_entries">
+        <item>Sedentary</item>
+        <item>Moderately active</item>
+        <item>Very active</item>
+    </string-array>
+    <string-array name="fitness_level_entries_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="sex_entries">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="sex_entries_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>
