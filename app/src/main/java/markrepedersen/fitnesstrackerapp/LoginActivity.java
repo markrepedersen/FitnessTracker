@@ -18,7 +18,7 @@ public class LoginActivity extends AppCompatActivity {
     EditText unameText, pwText;
     private final int MAX_LOGIN_ATTEMPTS = 5;
     DBHandler dbHandler = new DBHandler(this, null, null, 1);
-
+//fsfsdffdfsf
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
