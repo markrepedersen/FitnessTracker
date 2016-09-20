@@ -13,7 +13,6 @@ public class DBHandler extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 1;
     private static final String DATABASE_NAME = "logininfo.db";
     private static final String TABLE_LOGININFO = "logininfo";
-//fdsfsfs
     public static final String COLUMN_ID = "id";
     public static final String COLUMN_USERNAME = "username";
     public static final String COLUMN_HASHPASS = "hashpass";
