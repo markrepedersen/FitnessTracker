@@ -18,7 +18,7 @@ public class LoginActivity extends AppCompatActivity {
     EditText unameText, pwText;
     private final int MAX_LOGIN_ATTEMPTS = 5;
     DBHandler dbHandler = new DBHandler(this, null, null, 1);
-//sfsdfssfs
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,11 +41,6 @@ public class LoginActivity extends AppCompatActivity {
                         //proceeds to next activity
                         Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                         startActivity(intent);
-                    }
-                    else {
-                        //case where username or password is incorrect
-                        //let user try again a MAX_LOGIN_ATTEMPTS amount of times before cutting them off
-
                     }
                 }
                 else {  // user has not registered an account yet; can sign up
